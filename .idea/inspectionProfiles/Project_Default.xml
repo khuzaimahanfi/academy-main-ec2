@@ -1,0 +1,60 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="W605" />
+          <option value="E305" />
+          <option value="E302" />
+          <option value="E722" />
+          <option value="E301" />
+          <option value="E303" />
+          <option value="E101" />
+          <option value="E225" />
+          <option value="E111" />
+          <option value="E228" />
+          <option value="E114" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N812" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="sum" />
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="selenium.webdriver.chrome.webdriver.WebDriver.find_element_by_class" />
+          <option value="bytes.element_to_be_clickable" />
+          <option value="list.click" />
+          <option value="pyautogui.randint" />
+          <option value="dict.append" />
+          <option value="list.send_keys" />
+          <option value="list.submit" />
+          <option value="os.link.get_attribute" />
+          <option value="list.get_attribute" />
+          <option value="bytes.presence_of_element_located" />
+          <option value="undetected_chromedriver" />
+          <option value="uc.Chrome" />
+          <option value="bytes.text_to_be_present_in_element" />
+          <option value="urllib.request.urlretrieve" />
+          <option value="bytes.visibility_of_element_located" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

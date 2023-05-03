@@ -1,0 +1,85 @@
+2023-05-03 15:05:38,359 - INFO - ====== WebDriver manager ======
+2023-05-03 15:05:40,656 - INFO - Get LATEST chromedriver version for google-chrome 112.0.5615
+2023-05-03 15:05:43,066 - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\112.0.5615\chromedriver.exe] found in cache
+2023-05-03 15:05:46,619 - INFO - Navigating to https://alnafi.academy/
+2023-05-03 15:06:30,841 - INFO - Clicking on 'Sign up' button
+2023-05-03 15:06:57,707 - INFO - ====== WebDriver manager ======
+2023-05-03 15:06:59,411 - INFO - Get LATEST chromedriver version for google-chrome 112.0.5615
+2023-05-03 15:07:13,986 - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\112.0.5615\chromedriver.exe] found in cache
+2023-05-03 15:07:16,532 - INFO - Navigating to https://alnafi.academy/
+2023-05-03 15:11:09,290 - INFO - Clicking on 'Sign up' button
+2023-05-03 15:11:14,433 - INFO - Entering username
+2023-05-03 15:11:19,646 - INFO - Entering first name
+2023-05-03 15:11:24,812 - INFO - Entering last name
+2023-05-03 15:11:29,963 - INFO - Entering email
+2023-05-03 15:11:35,099 - INFO - Entering password
+2023-05-03 15:11:40,239 - INFO - Confirming password
+2023-05-03 15:11:45,390 - INFO - Entering contact information
+2023-05-03 15:11:50,533 - INFO - Entering address
+2023-05-03 15:11:55,686 - INFO - Submitting form
+2023-05-03 15:12:15,830 - INFO - Closing the webdriver
+2023-05-03 16:16:31,610 - INFO - ====== WebDriver manager ======
+2023-05-03 16:16:33,447 - INFO - Get LATEST chromedriver version for google-chrome 112.0.5615
+2023-05-03 16:16:35,784 - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\112.0.5615\chromedriver.exe] found in cache
+2023-05-03 16:16:37,542 - INFO - Navigating to https://alnafi.academy/
+2023-05-03 16:18:41,965 - INFO - entering user name
+2023-05-03 16:18:44,098 - INFO - entering password
+2023-05-03 16:18:46,212 - INFO - clicking on 'sign in' button
+2023-05-03 16:18:56,636 - INFO - clicking on 'go to home' button
+2023-05-03 16:20:33,180 - INFO - ====== WebDriver manager ======
+2023-05-03 16:20:36,118 - INFO - Get LATEST chromedriver version for google-chrome 112.0.5615
+2023-05-03 16:20:40,529 - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\112.0.5615\chromedriver.exe] found in cache
+2023-05-03 16:20:43,226 - INFO - Navigating to https://alnafi.academy/
+2023-05-03 16:21:22,088 - INFO - entering user name
+2023-05-03 16:21:24,256 - INFO - entering password
+2023-05-03 16:21:26,453 - INFO - clicking on 'sign in' button
+2023-05-03 16:21:36,770 - INFO - clicking on 'go to home' button
+2023-05-03 16:33:48,276 - INFO - ====== WebDriver manager ======
+2023-05-03 16:33:51,261 - INFO - Get LATEST chromedriver version for google-chrome 112.0.5615
+2023-05-03 16:33:56,490 - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\112.0.5615\chromedriver.exe] found in cache
+2023-05-03 16:34:00,919 - INFO - Navigating to https://alnafi.academy/
+2023-05-03 16:35:17,208 - INFO - ====== WebDriver manager ======
+2023-05-03 16:35:18,984 - INFO - Get LATEST chromedriver version for google-chrome 112.0.5615
+2023-05-03 16:35:20,979 - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\112.0.5615\chromedriver.exe] found in cache
+2023-05-03 16:35:23,484 - INFO - Navigating to https://alnafi.academy/
+2023-05-03 16:35:47,895 - INFO - entering user name
+2023-05-03 16:35:50,140 - INFO - entering password
+2023-05-03 16:35:52,352 - INFO - clicking on 'sign in' button
+2023-05-03 16:36:02,454 - INFO - clicking on 'go to home' button
+2023-05-03 16:36:18,892 - INFO - ====== WebDriver manager ======
+2023-05-03 16:36:20,422 - INFO - Get LATEST chromedriver version for google-chrome 112.0.5615
+2023-05-03 16:36:22,585 - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\112.0.5615\chromedriver.exe] found in cache
+2023-05-03 16:36:25,195 - INFO - Navigating to https://alnafi.academy/
+2023-05-03 16:36:51,372 - INFO - entering user name
+2023-05-03 16:36:53,634 - INFO - entering password
+2023-05-03 16:36:55,810 - INFO - clicking on 'sign in' button
+2023-05-03 16:37:15,920 - INFO - clicking on 'go to home' button
+2023-05-03 16:37:51,285 - INFO - navigating to to pricing page
+2023-05-03 16:38:56,816 - INFO - ====== WebDriver manager ======
+2023-05-03 16:38:58,562 - INFO - Get LATEST chromedriver version for google-chrome 112.0.5615
+2023-05-03 16:39:01,905 - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\112.0.5615\chromedriver.exe] found in cache
+2023-05-03 16:39:04,344 - INFO - Navigating to https://alnafi.academy/
+2023-05-03 16:39:41,369 - INFO - entering user name
+2023-05-03 16:39:43,608 - INFO - entering password
+2023-05-03 16:39:45,793 - INFO - clicking on 'sign in' button
+2023-05-03 16:40:05,889 - INFO - clicking on 'go to home' button
+2023-05-03 16:42:24,746 - INFO - navigating to to pricing page
+2023-05-03 16:48:29,522 - INFO - ====== WebDriver manager ======
+2023-05-03 16:48:32,500 - INFO - Get LATEST chromedriver version for google-chrome 112.0.5615
+2023-05-03 16:48:35,282 - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\112.0.5615\chromedriver.exe] found in cache
+2023-05-03 16:48:38,186 - INFO - Navigating to https://alnafi.academy/
+2023-05-03 16:49:05,796 - INFO - entering user name
+2023-05-03 16:49:08,034 - INFO - entering password
+2023-05-03 16:49:10,208 - INFO - clicking on 'sign in' button
+2023-05-03 16:49:30,300 - INFO - clicking on 'go to home' button
+2023-05-03 16:50:09,819 - INFO - navigating to to pricing page
+2023-05-03 16:51:01,550 - INFO - ====== WebDriver manager ======
+2023-05-03 16:51:03,474 - INFO - Get LATEST chromedriver version for google-chrome 112.0.5615
+2023-05-03 16:51:11,681 - INFO - ====== WebDriver manager ======
+2023-05-03 16:51:13,282 - INFO - Get LATEST chromedriver version for google-chrome 112.0.5615
+2023-05-03 16:51:15,835 - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\112.0.5615\chromedriver.exe] found in cache
+2023-05-03 16:51:18,328 - INFO - Navigating to https://alnafi.academy/
+2023-05-03 16:52:05,513 - INFO - entering user name
+2023-05-03 16:52:07,765 - INFO - entering password
+2023-05-03 16:52:09,954 - INFO - clicking on 'sign in' button
+2023-05-03 16:52:30,061 - INFO - clicking on 'go to home' button
