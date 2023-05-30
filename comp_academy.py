@@ -6,8 +6,8 @@ from selenium.webdriver.common.by import By
 import logging
 
 # Set up logging
-logging.basicConfig(filename='academy_logs.log', level=logging.INFO,
-                    format='%(asctime)s - %(levelname)s - %(message)s')
+# logging.basicConfig(filename='academy_logs.log', level=logging.INFO,
+  #                   format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 # Set up ChromeDriver options
@@ -23,61 +23,61 @@ executable_path = "/usr/local/bin/chromedriver"
 driver = webdriver.Chrome(service=service, options=chrome_options, executable_path=executable_path)
 driver.maximize_window()
 
-logging.info("Navigating to https://alnafi.academy/")
+# logging.info("Navigating to https://alnafi.academy/")
 driver.get("https://alnafi.academy/auth/signin")
 time.sleep(20)
 
-logging.info("entering email")
+# logging.info("entering email")
 driver.find_element(By.XPATH, "//input[@id='Email / Username']").send_keys("hanfi.kh99@gmail.com")
 time.sleep(2)
 
-logging.info("password")
+# logging.info("password")
 driver.find_element(By.XPATH, "//input[@id='Password']").send_keys("123456789@aA")
 time.sleep(2)
 
-logging.info("clicking on sign in button")
+# logging.info("clicking on sign in button")
 driver.find_element(By.XPATH, "//button[normalize-space()='Sign in']").click()
 time.sleep(10)
-logging.info("SIgn in successful")
+# logging.info("SIgn in successful")
 
-logging.info("pressing 'go to home' button")
+# logging.info("pressing 'go to home' button")
 driver.find_element(By.XPATH, "//button[normalize-space()='Go to home']").click()
 time.sleep(10)
-logging.info("main page opened")
+# logging.info("main page opened")
 
 # scene
-logging.info("pressing tab 'about us'")
+# logging.info("pressing tab 'about us'")
 driver.find_element(By.XPATH, "(//a[@class='py-3 text-gray-700 hover:text-[#6813CC] focus:text-purpleHeart text-sm font-medium transition-colors duration-300 transform'][normalize-space()='About Academy'])[1]").click()
 time.sleep(10)
 driver.execute_script("window.scrollBy(0, 500)")
 time.sleep(10)
-logging.info('About us successfully opened and closed')
+# logging.info('About us successfully opened and closed')
 
 # scene 2
-logging.info("pressing tab 'faculty'")
+# logging.info("pressing tab 'faculty'")
 driver.find_element(By.XPATH, "(//a[@class='py-3 text-gray-700 hover:text-[#6813CC] focus:text-purpleHeart text-sm font-medium transition-colors duration-300 transform'][normalize-space()='Faculty'])[1]").click()
 time.sleep(10)
 driver.execute_script("window.scrollBy(0, 500)")
 time.sleep(10)
-logging.info("faculty successfully opened and closed")
+# logging.info("faculty successfully opened and closed")
 
 # scene 3
-logging.info("pressing tab 'schedule'")
+# logging.info("pressing tab 'schedule'")
 driver.find_element(By.XPATH, "(//a[@class='py-3 text-gray-700 hover:text-[#6813CC] focus:text-purpleHeart text-sm font-medium transition-colors duration-300 transform'][normalize-space()='Schedule'])[1]").click()
 time.sleep(10)
 driver.execute_script("window.scrollBy(0, 500)")
 time.sleep(10)
-logging.info("schedule successfully opened and closed")
+# logging.info("schedule successfully opened and closed")
 
 # scene 3
-logging.info("pressing tab student resources")
+# logging.info("pressing tab student resources")
 driver.find_element(By.XPATH, "(//a[@class='py-3 text-gray-700 hover:text-[#6813CC] focus:text-purpleHeart text-sm font-medium transition-colors duration-300 transform'][normalize-space()='Student Resources'])[1]").click()
 time.sleep(10)
 driver.execute_script("window.scrollBy(0, 500)")
 time.sleep(10)
-logging.info("student resources successfully opened and closed ")
+# logging.info("student resources successfully opened and closed ")
 
-logging.info("clicking on download button of different papers")
+# logging.info("clicking on download button of different papers")
 yearly_past_papers = driver.find_element(By.XPATH, "(//a[@href='/student-resources/yearly-past-papers'])[1]")
 topical_past_papers = driver.find_element(By.XPATH, "(//a[@href='/student-resources/topical-past-papers'])[1]")
 subject_notes = driver.find_element(By.XPATH, "(//a[@href='/student-resources/subject-notes'])[1]")
@@ -118,11 +118,11 @@ print("download button clicked")
 ##############################################################################
 ##############################################################################
 # scene
-logging.info("navigating to to pricing page")
+# logging.info("navigating to to pricing page")
 driver.get("https://alnafi.academy/pricing")
 time.sleep(10)
 # verify price
-logging.info("monthly bundle price verification")
+# logging.info("monthly bundle price verification")
 # monthly_bundle_price = driver.find_element(By.XPATH, "(//div[@class='flex flex-col gap-2 text-purpleHeart font-bold text-[50px]'])[2]")
 # time.sleep(2)
 # monthly_act_price = "10000"
@@ -146,17 +146,17 @@ driver.find_element(By.XPATH, "(//label[@for='24'])[1]").click()
 print("plan select success")
 time.sleep(5)
 
-logging.info("processing to checkout")
+# logging.info("processing to checkout")
 driver.find_element(By.XPATH, "(//button[normalize-space()='Go to Checkout'])[1]").click()
 time.sleep(10)
 
-logging.info("entering easypaisa account number")
+# logging.info("entering easypaisa account number")
 driver.find_element(By.XPATH, "(//input[@id='easypaisa_number_input'])[1]").send_keys("0316")
 time.sleep(10)
 
-logging.info("clicking on pay button")
+# logging.info("clicking on pay button")
 driver.find_element(By.XPATH, "(//button[normalize-space()='Pay'])[1]").click()
-logging.info("verify the easypaisa payment on your phone")
+# logging.info("verify the easypaisa payment on your phone")
 time.sleep(25)
 
 driver.quit()
