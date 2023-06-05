@@ -38,7 +38,7 @@ driver.find_element(By.XPATH, "//input[@id='Email / Username']").send_keys("hanf
 time.sleep(2)
 
 # logging.info("password")
-driver.find_element(By.XPATH, "//input[@id='Password']").send_keys("123456789@aA")
+driver.find_element(By.XPATH, "//input[@id='Password']").send_keys("123456aA")
 time.sleep(2)
 
 # logging.info("clicking on sign in button")
