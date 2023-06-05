@@ -3,25 +3,29 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 from selenium.webdriver.common.by import By
-import logging
+# import logging
 
 # Set up logging
 # logging.basicConfig(filename='academy_logs.log', level=logging.INFO,
-  #                   format='%(asctime)s - %(levelname)s - %(message)s')
+#                   format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 # Set up ChromeDriver options
 chrome_options = webdriver.ChromeOptions()
-# chrome_options.add_argument('--headless')
+chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 
+
 service = Service(ChromeDriverManager().install())
 executable_path = "/usr/local/bin/chromedriver"
+driver = webdriver.Chrome(service=service, options=chrome_options)
+driver.maximize_window()
+
 
 # Set up ChromeDriver instance
-driver = webdriver.Chrome(service=service, options=chrome_options, executable_path=executable_path)
-driver.maximize_window()
+# driver = webdriver.Chrome(service=service, options=chrome_options, executable_path=executable_path)
+# driver.maximize_window()
 
 # logging.info("Navigating to https://alnafi.academy/")
 driver.get("https://alnafi.academy/auth/signin")
@@ -39,10 +43,13 @@ time.sleep(2)
 driver.find_element(By.XPATH, "//button[normalize-space()='Sign in']").click()
 time.sleep(10)
 # logging.info("SIgn in successful")
-
-# logging.info("pressing 'go to home' button")
-driver.find_element(By.XPATH, "//button[normalize-space()='Go to home']").click()
+# Confirm button click
+driver.find_element(By.XPATH, "(//button[normalize-space()='Confirm'])[1]").click()
 time.sleep(10)
+print("login successful")
+# logging.info("pressing 'go to home' button")
+# driver.find_element(By.XPATH, "//button[normalize-space()='Go to home']").click()
+# time.sleep(10)
 # logging.info("main page opened")
 
 # scene
@@ -51,6 +58,7 @@ driver.find_element(By.XPATH, "(//a[@class='py-3 text-gray-700 hover:text-[#6813
 time.sleep(10)
 driver.execute_script("window.scrollBy(0, 500)")
 time.sleep(10)
+print("about us OK ")
 # logging.info('About us successfully opened and closed')
 
 # scene 2
@@ -59,6 +67,7 @@ driver.find_element(By.XPATH, "(//a[@class='py-3 text-gray-700 hover:text-[#6813
 time.sleep(10)
 driver.execute_script("window.scrollBy(0, 500)")
 time.sleep(10)
+print("Faculty OK")
 # logging.info("faculty successfully opened and closed")
 
 # scene 3
@@ -67,6 +76,7 @@ driver.find_element(By.XPATH, "(//a[@class='py-3 text-gray-700 hover:text-[#6813
 time.sleep(10)
 driver.execute_script("window.scrollBy(0, 500)")
 time.sleep(10)
+print("schedule OK")
 # logging.info("schedule successfully opened and closed")
 
 # scene 3
@@ -75,6 +85,7 @@ driver.find_element(By.XPATH, "(//a[@class='py-3 text-gray-700 hover:text-[#6813
 time.sleep(10)
 driver.execute_script("window.scrollBy(0, 500)")
 time.sleep(10)
+print("Student resources OK")
 # logging.info("student resources successfully opened and closed ")
 
 # logging.info("clicking on download button of different papers")
@@ -90,8 +101,8 @@ driver.back()
 time.sleep(5)
 driver.execute_script("window.scrollBy(0, 500)")
 time.sleep(10)
-print("download button clicked")
-################################################
+print("download past papers button clicked and OK")
+#
 # topical_past_papers.click()
 # time.sleep(10)
 # driver.back()
@@ -99,7 +110,7 @@ print("download button clicked")
 # driver.execute_script("window.scrollBy(0, 500)")
 # time.sleep(10)
 # print("download button clicked")
-# #################################################
+#
 # subject_notes.click()
 # time.sleep(10)
 # driver.back()
@@ -107,7 +118,7 @@ print("download button clicked")
 # driver.execute_script("window.scrollBy(0, 500)")
 # time.sleep(10)
 # print("download button clicked")
-# ##################################################
+#
 # quiz.click()
 # time.sleep(10)
 # driver.back()
@@ -115,10 +126,9 @@ print("download button clicked")
 # driver.execute_script("window.scrollBy(0, 500)")
 # time.sleep(10)
 # print("download button clicked")
-##############################################################################
-##############################################################################
+#
 # scene
-# logging.info("navigating to to pricing page")
+# logging.info("navigating to pricing page")
 driver.get("https://alnafi.academy/pricing")
 time.sleep(10)
 # verify price
