@@ -43,16 +43,29 @@ driver.find_element(By.XPATH, "//button[normalize-space()='Go to home']").click(
 time.sleep(15)
 # scene
 logging.info("navigating to to pricing page")
-driver.find_element((By.XPATH, "(//a[normalize-space()='Pricing'])[1]")).click()
+driver.get("https://alnafi.academy/pricing")
 time.sleep(10)
 # verify price
 logging.info("monthly bundle price verification")
+# monthly_bundle_price = driver.find_element(By.XPATH, "(//div[@class='flex flex-col gap-2 text-purpleHeart font-bold text-[50px]'])[2]")
+# time.sleep(2)
+# monthly_act_price = "10000 Per Month"
+# time.sleep(2)
+# assert monthly_act_price == monthly_bundle_price.text, "Text not found in the element"
+# time.sleep(2)
 monthly_bundle_price = driver.find_element(By.XPATH, "(//div[@class='flex flex-col gap-2 text-purpleHeart font-bold text-[50px]'])[2]")
-time.sleep(2)
-monthly_act_price = "10000"
-time.sleep(2)
-assert monthly_act_price == monthly_bundle_price.text, "Text not found in the element"
-time.sleep(2)
+
+# Get the text of the element
+actual_text = monthly_bundle_price.text
+
+# Expected text
+expected_text = "10000 Per Month"
+
+# Compare the actual and expected text
+if actual_text == expected_text:
+    print("Text matches!")
+else:
+    print("Text does not match!")
 
 driver.find_element(By.XPATH, "(//span[@class='text-brightGray font-medium flex items-center gap-3 px-20 py-5 cursor-pointer w-max'][normalize-space()='Buy Now'])[2]").click()
 driver.find_element(By.XPATH, "(//label[@for='22'])[1]").click()

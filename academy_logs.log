@@ -1,0 +1,49 @@
+2023-05-25 21:49:32,361 - INFO - ====== WebDriver manager ======
+2023-05-25 21:49:34,121 - INFO - Get LATEST chromedriver version for google-chrome 113.0.5672
+2023-05-25 21:49:36,115 - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/113.0.5672.63/chromedriver_win32.zip
+2023-05-25 21:49:42,178 - INFO - Driver has been saved in cache [C:\Users\hp\.wdm\drivers\chromedriver\win32\113.0.5672]
+2023-05-25 21:49:44,696 - INFO - Navigating to https://alnafi.academy/
+2023-05-25 21:50:07,563 - INFO - entering email
+2023-05-25 21:50:09,710 - INFO - password
+2023-05-25 21:50:11,822 - INFO - clicking on sign in button
+2023-05-25 21:50:19,019 - INFO - ====== WebDriver manager ======
+2023-05-25 21:50:20,123 - INFO - Get LATEST chromedriver version for google-chrome 113.0.5672
+2023-05-25 21:50:21,934 - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\113.0.5672\chromedriver.exe] found in cache
+2023-05-25 21:50:24,576 - INFO - Navigating to https://alnafi.academy/
+2023-05-25 21:50:47,947 - INFO - entering email
+2023-05-25 21:50:50,133 - INFO - password
+2023-05-25 21:50:52,253 - INFO - clicking on sign in button
+2023-05-25 21:51:02,355 - INFO - pressing 'go to home' button
+2023-05-25 21:51:17,313 - INFO - pressing tab 'about us'
+2023-05-25 21:51:37,471 - INFO - About us successfully opened and closed
+2023-05-25 21:51:37,471 - INFO - pressing tab 'faculty'
+2023-05-25 21:51:57,581 - INFO - faculty successfully opened and closed
+2023-05-25 21:51:57,581 - INFO - pressing tab 'schedule'
+2023-05-25 21:52:17,676 - INFO - schedule successfully opened and closed
+2023-05-25 21:52:17,676 - INFO - pressing tab student resources
+2023-05-25 21:52:37,773 - INFO - student resources successfully opened and closed 
+2023-05-25 23:26:16,977 - INFO - ====== WebDriver manager ======
+2023-05-25 23:26:18,059 - INFO - Get LATEST chromedriver version for google-chrome 113.0.5672
+2023-05-25 23:28:54,282 - INFO - ====== WebDriver manager ======
+2023-05-25 23:28:55,040 - INFO - Get LATEST chromedriver version for google-chrome 113.0.5672
+2023-05-25 23:28:56,633 - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\113.0.5672\chromedriver.exe] found in cache
+2023-05-25 23:28:58,359 - INFO - Navigating to https://alnafi.academy/
+2023-05-25 23:29:20,536 - INFO - entering email
+2023-05-25 23:29:22,735 - INFO - password
+2023-05-25 23:29:24,865 - INFO - clicking on sign in button
+2023-05-25 23:29:34,978 - INFO - SIgn in successful
+2023-05-25 23:29:34,978 - INFO - pressing 'go to home' button
+2023-05-25 23:29:50,908 - INFO - main page opened
+2023-05-25 23:29:50,908 - INFO - pressing tab 'about us'
+2023-05-25 23:30:11,070 - INFO - About us successfully opened and closed
+2023-05-25 23:30:11,070 - INFO - pressing tab 'faculty'
+2023-05-25 23:30:31,163 - INFO - faculty successfully opened and closed
+2023-05-25 23:30:31,163 - INFO - pressing tab 'schedule'
+2023-05-25 23:30:51,257 - INFO - schedule successfully opened and closed
+2023-05-25 23:30:51,257 - INFO - pressing tab student resources
+2023-05-25 23:31:11,347 - INFO - student resources successfully opened and closed 
+2023-05-25 23:31:11,347 - INFO - clicking on download button of different papers
+2023-05-25 23:31:36,566 - INFO - navigating to to pricing page
+2023-05-30 16:53:49,479 - INFO - ====== WebDriver manager ======
+2023-05-30 16:53:50,490 - INFO - Get LATEST chromedriver version for google-chrome 113.0.5672
+2023-05-30 16:54:13,207 - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/113.0.5672.63/chromedriver_win32.zip

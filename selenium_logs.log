@@ -83,3 +83,65 @@
 2023-05-03 16:52:07,765 - INFO - entering password
 2023-05-03 16:52:09,954 - INFO - clicking on 'sign in' button
 2023-05-03 16:52:30,061 - INFO - clicking on 'go to home' button
+2023-05-25 22:58:12,334 - INFO - ====== WebDriver manager ======
+2023-05-25 22:58:13,480 - INFO - Get LATEST chromedriver version for google-chrome 113.0.5672
+2023-05-25 22:58:15,435 - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\113.0.5672\chromedriver.exe] found in cache
+2023-05-25 22:58:17,278 - INFO - Navigating to https://alnafi.academy/
+2023-05-25 22:58:40,078 - INFO - entering user name
+2023-05-25 22:58:42,282 - INFO - entering password
+2023-05-25 22:58:44,414 - INFO - clicking on 'sign in' button
+2023-05-25 22:59:04,510 - INFO - clicking on 'go to home' button
+2023-05-25 22:59:23,432 - INFO - navigating to to pricing page
+2023-05-25 23:00:12,756 - INFO - ====== WebDriver manager ======
+2023-05-25 23:00:13,723 - INFO - Get LATEST chromedriver version for google-chrome 113.0.5672
+2023-05-25 23:00:15,456 - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\113.0.5672\chromedriver.exe] found in cache
+2023-05-25 23:00:17,601 - INFO - Navigating to https://alnafi.academy/
+2023-05-25 23:00:40,053 - INFO - entering user name
+2023-05-25 23:00:42,260 - INFO - entering password
+2023-05-25 23:00:44,396 - INFO - clicking on 'sign in' button
+2023-05-25 23:01:04,495 - INFO - clicking on 'go to home' button
+2023-05-25 23:01:24,420 - INFO - navigating to to pricing page
+2023-05-25 23:01:35,705 - INFO - monthly bundle price verification
+2023-05-25 23:05:15,272 - INFO - ====== WebDriver manager ======
+2023-05-25 23:05:16,272 - INFO - Get LATEST chromedriver version for google-chrome 113.0.5672
+2023-05-25 23:05:18,111 - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\113.0.5672\chromedriver.exe] found in cache
+2023-05-25 23:05:19,913 - INFO - Navigating to https://alnafi.academy/
+2023-05-25 23:05:42,725 - INFO - entering user name
+2023-05-25 23:05:44,928 - INFO - entering password
+2023-05-25 23:05:47,051 - INFO - clicking on 'sign in' button
+2023-05-25 23:06:07,153 - INFO - clicking on 'go to home' button
+2023-05-25 23:06:26,913 - INFO - navigating to to pricing page
+2023-05-25 23:06:38,621 - INFO - monthly bundle price verification
+2023-05-25 23:07:38,091 - INFO - ====== WebDriver manager ======
+2023-05-25 23:07:39,266 - INFO - Get LATEST chromedriver version for google-chrome 113.0.5672
+2023-05-25 23:07:40,975 - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\113.0.5672\chromedriver.exe] found in cache
+2023-05-25 23:07:42,709 - INFO - Navigating to https://alnafi.academy/
+2023-05-25 23:08:05,439 - INFO - entering user name
+2023-05-25 23:08:07,632 - INFO - entering password
+2023-05-25 23:08:09,755 - INFO - clicking on 'sign in' button
+2023-05-25 23:08:29,850 - INFO - clicking on 'go to home' button
+2023-05-25 23:08:50,813 - INFO - navigating to to pricing page
+2023-05-25 23:09:01,929 - INFO - monthly bundle price verification
+2023-05-25 23:14:04,635 - INFO - ====== WebDriver manager ======
+2023-05-25 23:14:06,263 - INFO - Get LATEST chromedriver version for google-chrome 113.0.5672
+2023-05-25 23:14:08,292 - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\113.0.5672\chromedriver.exe] found in cache
+2023-05-25 23:14:11,471 - INFO - Navigating to https://alnafi.academy/
+2023-05-25 23:14:33,943 - INFO - entering user name
+2023-05-25 23:14:36,131 - INFO - entering password
+2023-05-25 23:14:38,248 - INFO - clicking on 'sign in' button
+2023-05-25 23:14:58,338 - INFO - clicking on 'go to home' button
+2023-05-25 23:15:22,653 - INFO - navigating to to pricing page
+2023-05-25 23:15:34,768 - INFO - monthly bundle price verification
+2023-05-25 23:21:04,171 - INFO - ====== WebDriver manager ======
+2023-05-25 23:21:05,110 - INFO - Get LATEST chromedriver version for google-chrome 113.0.5672
+2023-05-25 23:21:06,939 - INFO - Driver [C:\Users\hp\.wdm\drivers\chromedriver\win32\113.0.5672\chromedriver.exe] found in cache
+2023-05-25 23:21:08,785 - INFO - Navigating to https://alnafi.academy/
+2023-05-25 23:21:30,987 - INFO - entering user name
+2023-05-25 23:21:33,179 - INFO - entering password
+2023-05-25 23:21:35,340 - INFO - clicking on 'sign in' button
+2023-05-25 23:21:55,450 - INFO - clicking on 'go to home' button
+2023-05-25 23:22:14,531 - INFO - navigating to to pricing page
+2023-05-25 23:22:26,379 - INFO - monthly bundle price verification
+2023-05-25 23:22:31,834 - INFO - processing to checkout
+2023-05-25 23:22:43,679 - INFO - entering easypaisa account number
+2023-05-25 23:22:48,812 - INFO - clicking on pay button
